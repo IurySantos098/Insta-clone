@@ -1,0 +1,347 @@
+body {
+  width: 1700px;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  ;
+
+
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 750px;
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+  margin: 120px auto 5px;
+
+}
+
+.pitch {
+  height: 730px;
+  background: url('./images/smartphone.png') no-repeat center;
+  background-size: 420px;
+}
+
+.form {
+  margin-top: 85px;
+  text-align: center;
+
+  form {
+    margin-bottom: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: white;
+    padding: 20px 40px;
+
+    .logo {
+      margin-bottom: 20px;
+    }
+
+    input {
+      height: 36px;
+      font-size: 14px;
+      border-radius: 3px;
+      width: 100%;
+      color: #262626;
+      box-sizing: border-box;
+      background-color: #fafafa;
+      border: 1px solid #dbdbdb;
+      margin-bottom: 4px;
+      padding: 0 8px;
+    }
+
+    button {
+      width: 100%;
+      color: #fff;
+      font-weight: bold;
+      appearance: none;
+      height: 30px;
+      border: 0;
+      border-radius: 4px;
+      background-color: #0195f6;
+      margin-top: 12px;
+
+      &:disabled {
+        background-color: #b2dffc;
+      }
+
+    }
+
+    .separator {
+      font-size: 13px;
+      color: #8e8e8e;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin: 16px 26px;
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+    }
+
+
+
+
+    .barrinha1 {
+      border-top: 0px;
+      border-left: 0px;
+      border-right: 0px;
+      margin-right: 10px;
+
+      height: 1px;
+      color: #dbdbdb;
+    }
+
+
+
+    .barrinha2 {
+      border-top: 0px;
+      border-left: 0px;
+      border-right: 0px;
+      margin-left: 10px;
+
+      height: 1px;
+      color: #dbdbdb;
+
+    }
+
+    .login-with-Facebook {
+      color: #385185;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto 18px;
+    }
+
+    .forgot-password {
+      color: #00376b;
+      font-size: 13px;
+
+    }
+
+  }
+
+  .signup {
+    font-size: 14px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    a {
+      font-weight: bold;
+      color: #0095f6;
+
+    }
+
+
+
+
+  }
+
+  .get-app {
+    p {
+      font-size: 14px;
+    }
+
+    img {
+      136px
+    }
+  }
+}
+
+.footer {
+  color: #8e8e8e;
+  font-size: 12px;
+  text-align: center;
+  width: 950px;
+  margin: 0 auto;
+
+  .links {
+    margin-bottom: 10px;
+
+    a {
+      color: #8e8e8e;
+      font-size: 12px;
+      display: inline-block;
+      margin: 0 6px 10px;
+
+    }
+
+  }
+
+
+
+
+}
+
+@media (max-width: 720px) {
+  body {
+    width: 390px;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    ;
+  
+  
+  }
+
+  .form {
+    margin: 10px;
+    margin-top: 85px;
+    text-align: center;
+
+    form {
+      margin-bottom: 10px;
+      border: 1px solid rgb(219, 219, 219);
+      background-color: white;
+      padding: 20px 40px;
+
+      .logo {
+        margin-bottom: 20px;
+      }
+
+      input {
+        height: 36px;
+        font-size: 14px;
+        border-radius: 3px;
+        width: 100%;
+        color: #262626;
+        box-sizing: border-box;
+        background-color: #fafafa;
+        border: 1px solid #dbdbdb;
+        margin-bottom: 4px;
+        padding: 0 8px;
+      }
+
+      button {
+        width: 100%;
+        color: #fff;
+        font-weight: bold;
+        appearance: none;
+        height: 30px;
+        border: 0;
+        border-radius: 4px;
+        background-color: #0195f6;
+        margin-top: 12px;
+
+        &:disabled {
+          background-color: #b2dffc;
+        }
+
+      }
+
+      .separator {
+        font-size: 13px;
+        color: #8e8e8e;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 16px 26px;
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+      }
+
+
+
+
+      .barrinha1 {
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        margin-right: 10px;
+
+        height: 1px;
+        color: #dbdbdb;
+      }
+
+
+
+      .barrinha2 {
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        margin-left: 10px;
+
+        height: 1px;
+        color: #dbdbdb;
+
+      }
+
+      .login-with-Facebook {
+        color: #385185;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 18px;
+      }
+
+      .forgot-password {
+        color: #00376b;
+        font-size: 13px;
+
+      }
+
+    }
+
+    .signup {
+      font-size: 14px;
+      border: 1px solid rgb(219, 219, 219);
+      background-color: white;
+      padding: 10px;
+      margin-bottom: 20px;
+
+      a {
+        font-weight: bold;
+        color: #0095f6;
+
+      }
+    }
+
+    .get-app {
+      p {
+        font-size: 14px;
+      }
+
+      img {}
+    }
+
+
+  }
+
+  .pitch {
+    display: none;
+  }
+  
+.footer {
+    
+    color: #8e8e8e;
+    font-size: 12px;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+
+    .links {
+     
+      margin-bottom: 10px;
+  
+      a {
+        color: #8e8e8e;
+        font-size: 12px;
+        display: inline-block;
+        margin: 0 6px 10px;
+  
+      }
+
+}
+}
+}
